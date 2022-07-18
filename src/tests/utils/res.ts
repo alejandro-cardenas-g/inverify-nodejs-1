@@ -1,0 +1,1 @@
+export const fakeResponseInjection:any = {status: function(){ return {json: jest.fn()}}};
